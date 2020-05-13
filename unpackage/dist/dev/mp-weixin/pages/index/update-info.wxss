@@ -1,0 +1,35 @@
+
+.qsinput{
+	font-size: 36rpx !important;
+	padding:40rpx 30rpx;
+}
+.uni-input-xlzx {
+	border: 2rpx solid #ccc;
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 80%;
+	margin: auto;
+	padding: 0rpx 20rpx;
+	border-radius: 10rpx;
+	box-shadow: 0rpx 0rpx 0rpx 2rpx;
+	margin-bottom: 40rpx;
+	position: relative;
+.uni-input {
+		height: 80rpx;
+		line-height: 80rpx;
+		margin: auto;
+}
+.input-icon {
+		position: absolute;
+		right: 10rpx;
+		top: 20rpx
+}
+}
+.yybutton{
+	position: absolute;
+	bottom: 50rpx;
+	width: 90%;
+	margin:0 5%;
+	font-size: 40rpx;
+}
+

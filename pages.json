@@ -1,0 +1,180 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "绑定学生信息"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/bind-entry",
+			"style": {
+				// "navigationBarTitleText": "绑定页面入口文件"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/teacher-bind",
+			"style": {
+				// "navigationBarTitleText": "绑定老师信息"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/sub-page/sub-page",
+			"style": {
+				// "navigationBarTitleText": "预约课程废弃不用"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/login",
+			"style": {
+				// "navigationBarTitleText": "绑定认证吧"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/student/person-sub/index",
+			"style": {
+				// "navigationBarTitleText": "学生老师预约页面"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/student/person-sub/sub-detail",
+			"style": {
+				// "navigationBarTitleText": "学生预约详情"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/student/team-sub/index",
+			"style": {
+				// "navigationBarTitleText": "学生团队预约页面"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/student/team-sub/detail",
+			"style": {
+				// "navigationBarTitleText": "学生团队详情页面"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/student-sub/index",
+			"style": {
+				// "navigationBarTitleText": "老师查看学生预约情况"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/sub-info/index",
+			"style": {
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/sub-info/teachers",
+			"style": {
+				"app-plus":{
+					"navigationBarTitleText": "我的预约",
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/sub-info/teams",
+			"style": {
+				"app-plus":{
+					"navigationBarTitleText": "团队报名",
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/student/online-talk",
+			"style": {
+				// "navigationBarTitleText": "学生咨询页面"
+				"disableScroll": true,
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/online-talk",
+			"style": {
+				// "navigationBarTitleText": "老师咨询页面"
+				"disableScroll": true,
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/update-info",
+			"style": {
+				// "navigationBarTitleText": "修改个人信息页面"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/student/user-info",
+			"style": {
+				// "navigationBarTitleText": "学生个人信息页面"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/user-info",
+			"style": {
+				// "navigationBarTitleText": "老师个人信息页面"
+				"app-plus":{
+				    "titleNView": false
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "心理咨询测评管理系统"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

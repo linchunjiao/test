@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/bind-entry",
+    "pages/index/teacher-bind",
+    "pages/index/sub-page/sub-page",
+    "pages/index/login",
+    "pages/student/person-sub/index",
+    "pages/student/person-sub/sub-detail",
+    "pages/student/team-sub/index",
+    "pages/student/team-sub/detail",
+    "pages/teacher/student-sub/index",
+    "pages/sub-info/index",
+    "pages/sub-info/teachers",
+    "pages/sub-info/teams",
+    "pages/student/online-talk",
+    "pages/teacher/online-talk",
+    "pages/index/update-info",
+    "pages/student/user-info",
+    "pages/teacher/user-info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "心理咨询测评管理系统"
+  },
+  "usingComponents": {
+    "chun-lei-modal": "/components/chunLei-modal/chunLei-modal"
+  }
+}

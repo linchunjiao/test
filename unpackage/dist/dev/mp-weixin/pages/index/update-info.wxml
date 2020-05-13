@@ -1,0 +1,1 @@
+<view><view style="padding-top:200rpx;"></view><input class="uni-input-xlzx" placeholder="手机" data-event-opts="{{[['input',[['__set_model',['$0','phoneNum','$event',[]],['values']]]]]}}" value="{{values.phoneNum}}" bindinput="__e"/><button class="yybutton" type="primary" data-event-opts="{{[['tap',[['updateInfo',['$event']]]]]}}" bindtap="__e">修改个人信息</button></view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "qs-tabs": "/components/QS-tabs/QS-tabs",
+    "teachers": "/pages/sub-info/teachers",
+    "teams": "/pages/sub-info/teams"
+  }
+}
